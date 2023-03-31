@@ -8,12 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var lastupdatedtime = Date().timeIntervalSince1970;
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        VStack{
+            
+            let image_url = URL(string: "https://picsum.photos/200?timestamp=\(lastupdatedtime)")
+            let imageblock = AsyncImage(url: image_url)
+            imageblock.clipShape(RoundedRectangle(cornerRadius: 180))
+            
+            Spacer()
+                .frame(width: 10.0, height: 30.0)
+            
+            Button(action:{
+                lastupdatedtime = Date().timeIntervalSince1970
+            }) {
+                Text("Reload Image")
+            
+            }
         }
         .padding()
     }

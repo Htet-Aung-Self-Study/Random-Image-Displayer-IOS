@@ -14,6 +14,7 @@
 		CEDA6BCD29D70E590052E2BA /* random_image_displayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA6BCC29D70E590052E2BA /* random_image_displayerTests.swift */; };
 		CEDA6BD729D70E590052E2BA /* random_image_displayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA6BD629D70E590052E2BA /* random_image_displayerUITests.swift */; };
 		CEDA6BD929D70E590052E2BA /* random_image_displayerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA6BD829D70E590052E2BA /* random_image_displayerUITestsLaunchTests.swift */; };
+		CEDA6BE629D70F3D0052E2BA /* ConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA6BE529D70F3D0052E2BA /* ConnectionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		CEDA6BD229D70E590052E2BA /* random_image_displayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = random_image_displayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDA6BD629D70E590052E2BA /* random_image_displayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = random_image_displayerUITests.swift; sourceTree = "<group>"; };
 		CEDA6BD829D70E590052E2BA /* random_image_displayerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = random_image_displayerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CEDA6BE529D70F3D0052E2BA /* ConnectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				CEDA6BBD29D70E570052E2BA /* ContentView.swift */,
 				CEDA6BBF29D70E590052E2BA /* Assets.xcassets */,
 				CEDA6BC129D70E590052E2BA /* Preview Content */,
+				CEDA6BE529D70F3D0052E2BA /* ConnectionManager.swift */,
 			);
 			path = random_image_displayer;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEDA6BBE29D70E570052E2BA /* ContentView.swift in Sources */,
+				CEDA6BE629D70F3D0052E2BA /* ConnectionManager.swift in Sources */,
 				CEDA6BBC29D70E570052E2BA /* random_image_displayerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,7 +349,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -399,7 +403,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
